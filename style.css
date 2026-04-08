@@ -1,0 +1,71 @@
+:root {
+  --bg:#0c0a07;
+  --surface:#231f15;
+  --gold:#f5a623;
+  --text:#f0ead8;
+  --muted:#8a7f68;
+}
+
+[data-theme="light"] {
+  --bg:#fdf6e3;
+  --surface:#ecdfc2;
+  --text:#1a160a;
+}
+
+body {
+  font-family:'Outfit',sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  margin:0;
+}
+
+nav {
+  display:flex;
+  justify-content:space-between;
+  padding:15px 5%;
+  background:var(--surface);
+}
+
+.logo {
+  font-family:'Bebas Neue';
+  font-size:24px;
+  color:var(--gold);
+}
+
+.nav-links {
+  display:flex;
+  gap:20px;
+  list-style:none;
+}
+
+.nav-links a {
+  color:var(--muted);
+  text-decoration:none;
+}
+
+.hero-wrap {
+  padding:100px 5%;
+}
+
+.hero-name {
+  font-size:60px;
+}
+
+.out {
+  color:var(--gold);
+}
+
+.btn {
+  padding:10px 20px;
+  border:none;
+  cursor:pointer;
+}
+
+.btn-g {
+  background:var(--gold);
+  color:black;
+}
+
+section {
+  padding:80px 5%;
+}
